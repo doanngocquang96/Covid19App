@@ -1,0 +1,388 @@
+<resources>
+    <string name="app_name">quickCovid19</string>
+    <string name="action_settings">Settings</string>
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <string name="level_text">Level %1$d</string>
+    <!-- -
+    This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+    For more information, see https://support.google.com/admob/answer/3052638
+<!- -->
+    <string name="interstitial_ad_unit_id">YOUR_INTERSTITIAL_AD_UNIT_ID</string>
+    <string name="qr_list"><u>Danh Sách mã QR</u>.</string>
+    <string name="qr_code_info"><u>Chạm Để Biết Sức Khỏe Của Bạn</u>.</string>
+
+
+    <!-- Terms of use-->
+    <string name="vaccines">Available Vaccines</string>
+    <string name="call">Đường dây nóng tư vấn COVID-19</string>
+    <string name="phone_text">Số điện thoại đường dây nóng về vắc xin</string>
+    <string name="title">Vi-rút corona chủng mới (2019-nCoV)</string>
+    <string name="details">Ứng dụng này để hỗ trợ bạn về COVID-19 và định hướng cho bạn các chi tiết cần thiết trước khi tiếp tục quy trình
+    </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="location_nameText">covid</string>
+    <string name="login_title">Login</string>
+    <string name="tvQuestionFAQText">Tên câu hỏi</string>
+    <string name="tvAnswerFAQText">Trả lời TexView</string>
+
+    <string name="astrazeneca">
+        Astrazeneca\n
+                \nCOVID-19 Vaccine (AZD1222)  \n
+                \n• Tiêm phòng giúp bảo vệ mọi người khỏi bị bệnh với COVID-19.\n
+                \n• Vắc xin AstraZeneca COVID-19 đã chứng minh hiệu quả cao trong các thử nghiệm lâm sàng được tiến hành tại Vương quốc Anh và Hoa Kỳ, và rất hiệu quả trong các đợt triển khai thực tế trong việc ngăn ngừa bệnh nặng, nhập viện và tử vong. \n
+                \n• Vắc xin AstraZeneca được Cơ quan Quản lý Dược phẩm Quốc gia (NPRA) phê duyệt là vắc xin an toàn và hiệu quả chống nhiễm trùng COVID-19 cho người lớn từ 18 tuổi trở lên. \n
+                \n• Các tác dụng phụ thường gặp bao gồm đau hoặc sưng tấy tại chỗ tiêm, mệt mỏi, nhức đầu, đau cơ, sốt và ớn lạnh (thường trong 24 đến 48 giờ).\n
+                \n• Một tác dụng phụ có thể xảy ra cực kỳ hiếm gặp là huyết khối với hội chứng giảm tiểu cầu (TTS), với 9,3 trường hợp trên một triệu liều đã được báo cáo \n
+                \n• Không có yếu tố rủi ro cụ thể nào được xác nhận đối với TTS. Dữ liệu hiện có cho thấy nhiều trường hợp mắc bệnh hơn ở người lớn dưới 60 tuổi so với người lớn tuổi và ở phụ nữ so với nam giới. \n
+                \n Theo dõi các dấu hiệu và triệu chứng từ 4 đến 30 ngày sau khi tiêm chủng. Vui lòng tham khảo Hướng dẫn Lâm sàng của AstraZeneca về Tiêm chủng COVID-19.\n
+               \n Lợi ích của việc tiêm chủng vượt trội hơn nhiều so với rủi ro trong tình huống này. Nếu bạn có bất kỳ mối quan tâm hoặc thắc mắc nào, bạn có thể thảo luận với bác sĩ trước khi nhận vắc xin. \n
+                \ nHãy tìm kiếm sự chăm sóc y tế ngay lập tức nếu bạn gặp phải \n
+                1. Đau đầu dai dẳng nghiêm trọng:
+                \n • Không cải thiện khi dùng thuốc giảm đau đơn giản
+                \n • Tình trạng tồi tệ hơn khi nằm xuống hoặc kèm theo buồn nôn và nôn. \n
+                2. Các triệu chứng thần kinh như: \n
+                    • Nhìn mờ \n
+                    • Khó nói \n
+                    • Buồn ngủ \n
+                    • Động kinh \n
+                3. Khó thở hoặc đau ngực \n
+                4. Sưng chân \n
+                5. Đau bụng dai dẳng \n
+                6. Những đốm máu nhỏ dưới da \n
+                \nThông tin về vắc-xin AstraZeneca \n
+                Theo dõi các dấu hiệu và triệu chứng từ 4 đến 30 ngày sau khi tiêm chủng. Vui lòng tham khảo Hướng dẫn Lâm sàng của AstraZeneca về Tiêm chủng COVID-19. \n
+                Lợi ích của việc tiêm chủng vượt trội hơn rất nhiều so với rủi ro trong tình huống này. Nếu bạn có bất kỳ mối quan tâm hoặc thắc mắc nào, bạn có thể thảo luận với bác sĩ trước khi nhận vắc xin. \n
+                \n1. Vaxzevria (trước đây là vắc xin COVID-19 AstraZeneca) \n
+                \n2. Thuốc chủng ngừa Oxford / AstraZeneca COVID-19: những điều bạn cần biết \n
+                \n3. Khuyến nghị tạm thời về việc sử dụng vắc-xin ChAdOx1-S [tái tổ hợp] chống lại COVID-19 (AstraZeneca COVID-19 \n
+                vắc xin AZD1222, SII Covishield, SK Bioscience) \n
+                \n4. Tuyên bố của Nhóm Chuyên gia Tư vấn Chiến lược (SAGE) về Tiêm chủng: Tiếp tục xem xét các bằng chứng mới nổi về Thuốc chủng ngừa AstraZeneca COVID-19 \n
+                \n5. Ủy ban cố vấn toàn cầu về an toàn vắc xin (GACVS) xem xét bằng chứng mới nhất về các biến cố đông máu có hại hiếm gặp với vắc xin AstraZeneca COVID-19 (Vaxzevria và Covishield) \n
+                \n6. Vắc xin AstraZeneca COVID-19: tiếp tục xem xét các trường hợp đông máu bất thường rất hiếm gặp \n
+                \nĐọc thêm
+                \nvaksincovid.gov.my/en \n
+
+    </string>
+
+    <string name="sinovac">
+        Sinovac-Coronavac\n
+                \n01 COVID-19 LÀ GÌ \? \n
+                \nCOVID-19 bệnh do một loại coronavirus có tên là SARS-CoV-2 gây ra. Các triệu chứng có thể xuất hiện từ 2 đến 14 ngày sau khi tiếp xúc với vi rút. Các triệu chứng có thể gặp phải là: \ n
+                • Sốt hoặc ớn lạnh \n
+                • Ho \n
+                • Khó thở \n
+                • Mệt mỏi \n
+                • Đau cơ hoặc toàn thân \n
+                • Nhức đầu \n
+                • Mất vị giác hoặc khứu giác \n
+                • Đau họng \n
+                • Nghẹt mũi hoặc chảy nước mũi \n
+                • Buồn nôn hoặc nôn \n
+                • Tiêu chảy \n
+                \n
+                02 AI CÓ RỦI RO CAO BỊ NHIỄM TRÙNG COVID-19 \?
+                \nCác nhóm rủi ro là: \n
+                • Trẻ em \n
+                • Người cao tuổi từ 60 trở lên \n
+                • Bệnh nhân mắc bệnh mãn tính \n
+                • Bệnh nhân có khả năng miễn dịch thấp \n
+                • Phụ nữ mang thai \n
+                \n03 TẦM QUAN TRỌNG CỦA VIỆC LẤY DÂY CHUYỀN 19 VACCINE \ COVID LÀ GÌ?
+                \nVắc xin COVID-19 được sử dụng để kiểm soát sự lây truyền của bệnh COVID-19. Khi càng nhiều người chủng ngừa, ngày càng có nhiều người hình thành kháng thể và do đó làm giảm khả năng mắc bệnh COVID-19 trầm trọng hơn. Một cách gián tiếp, nó có thể bảo vệ các nhóm nguy cơ không đủ điều kiện tiêm chủng. \N
+                \n04 LUẬT SỬ DỤNG MÁY XÚC XÍCH COVID-19 \ LÀ GÌ?
+                \n Cuộc họp đặc biệt của Ủy ban Muzakarah của Hội đồng Quốc gia về các vấn đề tôn giáo Hồi giáo được triệu tập vào ngày 3 tháng 12 năm 2020 đã quyết định rằng luật sử dụng vắc-xin COVID-19 là PHẢI VÀ PHẢI ĐƯỢC THỰC HIỆN bởi các nhóm do chính phủ chỉ định. \n
+                \n05 AI ĐỦ ĐIỀU KIỆN ĐỂ NHẬN COVID-19 CORONAVAC VACCINE \?
+                \nTất cả mọi người từ 18 tuổi trở lên đều đủ điều kiện nhận vắc xin COVID-19 CoronaVac. \n
+                \n06 AI KHÔNG ĐỦ ĐIỀU KIỆN ĐỂ NHẬN COVID-19 CORONAVAC VACCINE \?
+                \nBạn không đủ điều kiện để nhận vắc-xin COVID-19 CoronaVac nếu bạn: \n
+                • Bị dị ứng với CoronaVac hoặc bất kỳ thành phần nào trong CoronaVac (vui lòng xem phần Mô tả Sản phẩm). Các dấu hiệu của phản ứng dị ứng có thể bao gồm phát ban hoặc ngứa da, khó thở và sưng mặt hoặc lưỡi. Gọi cho bác sĩ của bạn hoặc đến đơn vị cấp cứu tại bệnh viện gần nhất ngay lập tức nếu bạn gặp phản ứng dị ứng. \N
+                • Có tiền sử dị ứng với bất kỳ loại vắc xin nào khác \n
+                • Mắc bệnh thần kinh nghiêm trọng như viêm tủy sống (ngang \n
+                viêm tủy), bệnh khử men và hội chứng Guillain-Barre \n
+                • Bị bệnh nặng hoặc mãn tính không kiểm soát được \n
+                • Nếu bạn đang mang thai hoặc đang cho con bú \n
+                \n Nên trì hoãn việc tiêm cho những người đang mắc các bệnh cấp tính như bệnh cấp tính, đợt cấp của các bệnh mãn tính, các bệnh mãn tính nặng, dị ứng và sốt nếu cần thiết. \n
+                \n07 TRẺ EM, NHÂN VIÊN VÀ ĐỦ ĐIỀU KIỆN ĐỦ ĐIỀU KIỆN ĐỂ NHẬN THÙNG CORONAVAC VACCINE \?
+                \nCoronaVac không được khuyến nghị cho trẻ em từ 18 tuổi trở xuống do dữ liệu về tính an toàn và hiệu quả còn hạn chế tại thời điểm này. \n
+                \nNhững người từ 60 tuổi trở lên đủ điều kiện sử dụng vắc xin CoronaVac. \n
+                \n08 TÔI CÓ THỂ NHẬN ĐƯỢC THUỐC CHỮA BỆNH COVID-19 NẾU TÔI CÓ THAI HOẶC CHO CON BÚ \?
+                \nDữ liệu về việc sử dụng CoronaVac của phụ nữ mang thai hoặc cho con bú bị hạn chế. Việc sử dụng vắc-xin này cho phụ nữ mang thai và bà mẹ đang cho con bú KHÔNG ĐƯỢC KHUYẾN CÁO tại thời điểm này. \n
+                \n09 TÔI CÓ ĐƯỢC SỰ LỰA CHỌN ĐỂ CHỌN LOẠI VACCINE COVID-19 không \?
+                \n KHÔNG. Người nhận vắc xin không được phép chọn loại vắc xin COVID-19 mà họ sẽ nhận. Nó phụ thuộc vào nguồn cung hiện có tại trung tâm tiêm chủng cũng như đánh giá của từng cá nhân về các loại vắc xin hiện có. \n
+                Tuy nhiên, những người nhận vắc xin không thể nhận một loại vắc xin cụ thể do vấn đề y tế như dị ứng có thể được tiêm một loại vắc xin khác thích hợp hơn. \n
+                \n10 COVID-19 CORONAVAC VACCINE CÓ AN TOÀN ĐỂ SỬ DỤNG Ở VN \?
+                \nCơ quan Kiểm soát Ma túy của Malaysia đã cho phép đăng ký sử dụng vắc xin có điều kiện ở Malaysia.
+                 \n Giấy phép Sử dụng Thương mại (EUA) cũng đã được một số cơ quan quản lý khác như Mexico, Brazil, Chile, Paraguay, Trung Quốc, Hồng Kông, Thổ Nhĩ Kỳ, Campuchia và Indonesia phê duyệt. \n
+                 \n11 TÔI NÊN THÔNG TIN GÌ CHO NHÂN VIÊN Y TẾ TRƯỚC KHI NHẬN THUỐC TIÊM CACCINE COVID-19 CORONAVAC \?
+                 \nHãy thông báo cho nhà cung cấp dịch vụ chăm sóc sức khỏe nếu bạn: \n
+                 • Có tiền sử dị ứng nghiêm trọng \n
+                 • Hiện đang được điều trị làm giảm hệ thống miễn dịch của cơ thể \n
+                 • Mắc các bệnh thần kinh nghiêm trọng như Viêm tủy răng ngang, Hội chứng Guillian-Barre, \n
+                 Bệnh khử men \n
+                 • Bị bệnh mãn tính \n
+                 \nĐọc thêm \@
+                 \nvaksincovid.gov.my/en \n
+    </string>
+
+    <string name="pfizer">
+        Pfizer-BioNTech\n
+                \nCOVID-19 THÔNG TIN VỀ VACCINE MỚI NHẤT (CÔNG TY PFIZER-BIONTECH) CHO NGƯỜI NHẬN VACCINE \n
+                \n COVID-19 LÀ GÌ?
+                \nCOVID-19 bệnh do một loại coronavirus có tên là SARS-CoV-2 gây ra. Các triệu chứng có thể xuất hiện từ 2 đến 14 ngày sau khi tiếp xúc với vi rút. Các triệu chứng có thể gặp phải là: \ n
+                • Sốt hoặc ớn lạnh \n
+                • Ho \n
+                • Khó thở \n
+                • Mệt mỏi \n
+                • Mất vị giác hoặc khứu giác \n
+                • Đau họng \n
+                • Nghẹt mũi hoặc chảy nước mũi \n
+                • Buồn nôn hoặc nôn \n
+                • Tiêu chảy \n
+                • Đau cơ hoặc toàn thân \n
+                • Nhức đầu \n
+                \n
+                Các nhóm rủi ro là: \n
+                • Trẻ em \n
+                • Người cao tuổi từ 60 trở lên \n
+                • Bệnh nhân mắc bệnh mãn tính \n
+                • Bệnh nhân có khả năng miễn dịch thấp \n
+                • Phụ nữ mang thai \n
+                \nTẦM QUAN TRỌNG CỦA VIỆC LẤY DÂY CHUYỀN 19 VACCINE \ COVID LÀ GÌ?
+                \nVắc xin COVID-19 được sử dụng để kiểm soát sự lây truyền của bệnh COVID-19. Khi càng nhiều người chủng ngừa, ngày càng có nhiều người hình thành kháng thể và do đó làm giảm khả năng mắc bệnh COVID-19 trầm trọng hơn. Một cách gián tiếp, nó có thể bảo vệ các nhóm nguy cơ không đủ điều kiện tiêm chủng. \n
+                \n LOẠI VACCINE NÀO SẼ ĐƯỢC SỬ DỤNG Ở VN \?
+                \nCó một số loại sẽ được sử dụng ở Việt Nam, cụ thể là: \n
+                • Thuốc chủng ngừa Pfizer-BioNtech Covid-19 mRNA \n
+                • Vắc-xin vectơ vi-rút Covid-19 do Astra Zeneka sản xuất \n
+                • Vắc xin Covid-19 đã bất hoạt của Sinovac \n
+                • Vắc xin vectơ vi rút tái tổ hợp Covid-19 do CanSino \n sản xuất
+                • Thuốc chủng ngừa vectơ vi-rút Covid-19 của Gamaleya \n
+                \nTẠI SAO CÓ ĐỦ ĐIỀU KIỆN ĐỂ NHẬN ĐƯỢC MÁY XÚC XẠ COVID-19 COMIRNATY (PFIZER-BIONTECH) \?
+                \nTất cả mọi người từ 18 tuổi trở lên đều đủ điều kiện nhận vắc-xin COVID-19 COMIRNATY (Pfizer-BioNTech). Ưu tiên cho công nhân tuyến đầu, những người có nguy cơ nhiễm COVID-19 cao như người già, bệnh nhân mắc các bệnh nội khoa như bệnh tim, tiểu đường, cao huyết áp, hen suyễn, ung thư, v.v.
+                \n \ nVÌ SAO CHƯA ĐỦ ĐIỀU KIỆN ĐỂ NHẬN THỎA MÃN COVID-19 COMIRNATY (PFIZER-BIONTECH) \? \n
+                \nBạn không đủ điều kiện để nhận vắc-xin COVID-19 COMIRNATY (Pfizer-BioNTech) nếu bạn có:
+                \n • Tiền sử phản ứng dị ứng nghiêm trọng hoặc tiền sử sốc phản vệ sau khi tiêm liều đầu tiên của vắc-xin mRNA như vắc-xin COVID-19 COMIRNATY (Pfizer-BioNTech) \n
+                \nLưu ý: Phản ứng dị ứng được coi là nghiêm trọng nếu người đó cần được điều trị tại bệnh viện \n
+                \n • Phản ứng dị ứng với bất kỳ hàm lượng nào của vắc-xin COVID-19 mRNA ngay cả khi không nghiêm trọng (phản ứng dị ứng xảy ra trong vòng 4 giờ sau khi tiêm vắc-xin COVID-19 mRNA). Những người gặp phản ứng này sau khi tiêm liều đầu tiên của vắc-xin mRNA COVID-19, sẽ không được tiêm liều thứ hai \n
+                \n • Tiền sử phản ứng dị ứng nghiêm trọng hoặc tiền sử sốc phản vệ sau khi dùng bất kỳ loại thuốc hoặc thực phẩm nào hoặc với một chất không xác định \n
+                \nLÀM LUẬT CỦA VIỆC DÙNG COVID-19 VACCINE \?
+                \n Cuộc họp đặc biệt của Ủy ban Muzakarah của Hội đồng Quốc gia về các vấn đề tôn giáo Hồi giáo được triệu tập vào ngày 3 tháng 12 năm 2020 đã quyết định rằng luật sử dụng vắc-xin COVID-19 nên và phải được thực hiện bởi các nhóm do Chính phủ chỉ định. \n
+                \nAM TÔI ĐÃ CHO LỰA CHỌN LOẠI VACCINE COVID-19 \?
+                \nKhông. Người nhận vắc xin không được phép chọn loại vắc xin COVID-19 mà họ sẽ nhận. Nó phụ thuộc vào nguồn cung hiện có tại trung tâm tiêm chủng. \n
+                \nVACCINE COVID-19 COMIRNATY (PFIZER-BIONTECH) AN TOÀN ĐƯỢC SỬ DỤNG TẠI VN \?
+                \nCó, vắc xin này an toàn để sử dụng vì nó đã được đăng ký và được Cục Quản lý Dược phẩm Quốc gia phê duyệt vào ngày 8 tháng 1 năm 2021 để sử dụng tại Việt Nam. Cục Quản lý Thực phẩm và Dược phẩm (FDA) đã cho phép sử dụng Vắc xin COVID-19 COMIRNATY (Pfizer-BioNTech) như một biện pháp khẩn cấp để ngăn ngừa COVID-19 ở những người từ 16 tuổi trở lên theo Giấy phép Sử dụng Khẩn cấp (EUA). \n
+                \nTổ chức Y tế Thế giới (WHO) đã chứng nhận rằng vắc-xin COVID-19 COMIRNATY (Pfizer-BioNTech) có thể được sử dụng cho các mục đích khẩn cấp vào ngày 31 tháng 12 năm 2020.
+                \n Nó cũng đã được chấp thuận bởi các cơ quan y tế ở Hoa Kỳ, Anh, các nước Châu Âu, Israel và Singapore. Trên thực tế, 48 quốc gia đã chứng nhận việc sử dụng vắc xin này. \ N
+                \nTẠI SAO TÔI NÊN THÔNG TIN CHO NHÂN VIÊN Y TẾ TRƯỚC KHI NHẬN THUỐC TIÊM VACCINE COVID-19 COMIRNATY (PFIZER-BIONTECH) \?
+                \nHãy thông báo cho nhà cung cấp dịch vụ chăm sóc sức khỏe nếu bạn: \n
+                 • Có tiền sử dị ứng nghiêm trọng; \n
+                 • Bị rối loạn chảy máu như bệnh máu khó đông, bệnh xuất huyết vô căn, bệnh xuất huyết giảm tiểu cầu (ITP), v.v.; \n
+                 • Đang điều trị thuốc làm loãng máu; \n
+                 • Đang được điều trị làm giảm hệ thống miễn dịch của cơ thể; \n
+                 • Đang mang thai hoặc dự định có thai; \n
+                 • Cho con bú; \n
+                 • Đã nhận vắc xin COVID-19 từ một nhãn hiệu khác
+                 \nBạn nên tham khảo ý kiến bác sĩ chuyên môn trước để xác định mức độ phù hợp với mình
+                 \n
+                 \nĐọc thêm \ @
+                 \nvaksincovid.gov.my/en \n
+    </string>
+
+    <string name="commitpolicy">
+        Pressing button CONTINUE, you already accept
+          <font color="#BBB\"> <bold> our policy </bold></font>
+
+        when using your account in app
+    </string>
+
+    <string name="aboutapp">
+
+    <b>Ứng dụng đươc sử dụng để báo cáo đồ án cuối kỳ \n LAP TRINH DI DONG</b>\n\n
+
+
+	\nNHÓM HOẠT ĐỘNG DƯỚI SỰ QUẢN LÝ CỦA GIẢNG VIÊN: NGUYỄN THÁI CÔNG NGHĨA
+
+	\nỨNG DỤNG: QUICK COVID-19
+	\nNền tảng: Android
+	\nNgôn ngữ lập trình: JAVA
+	\nPhiên bản: v1.0.0
+
+    \n<b>Đơn vị quản lý Ứng dụng</b>\n
+    \nTHANH VIEN NHOM 5 LAP TINH DI DONG\n
+	\nDanh sách thành viên:
+	\n1520017-Chu Quang Chí
+	\n1520191-Đinh Quốc Thông
+	\n18200160-Nguyễn Tiến Lộc
+	\n18200205-Đoàn Ngọc Quang
+	\n18200118-Nguyễn Phước Hưng
+    \nĐịa chỉ: 227 Đ. Nguyễn Văn Cừ, Phường 4, Quận 5, Thành phố Hồ Chí Minh.\n
+    Mã số: 05\n
+    Tổng đài hỗ trợ 24/7: 0907417373\n
+    Email:  qncv@gmail.com\n
+
+    </string>
+
+    <string name="policyapp">
+
+        \t\tNgười dùng vui lòng đọc kỹ toàn bộ nội dung của Điều Khoản Sử Dụng này ("Điều Khoản Sử Dụng") trước khi tiến hành cài đặt bất kỳ phần nào của Ứng dụng (bao gồm nhưng không giới hạn các phần mềm, các file và tài liệu liên quan). Người dùng chấp thuận và đồng ý bị ràng buộc bởi các quy định và điều kiện trong Điều Khoản Sử Dụng này khi thực hiện các thao tác trên đây.\n
+        \n<b>Đơn vị quản lý Ứng dụng</b>\n
+
+        THANH VIEN NHOM 5 LAP TINH DI DONG\n
+        Địa chỉ: 227 Đ. Nguyễn Văn Cừ, Phường 4, Quận 5, Thành phố Hồ Chí Minh.\n
+        Mã số: 05\n
+        Tổng đài hỗ trợ 24/7: 0907417373\n
+        Email: qncv@gmail.com\n
+
+       \n<b>Điều 1. Giới thiệu chung về Ứng dụng</b>\n
+
+        1.1    Ứng dụng Quick Covid-19 là một ứng dụng Ứng dụng do Nhom 5 LTDD, thực hiện chức năng, cung cấp các giải pháp bảo vệ sức khỏe của người dân Việt Nam trước đại dịch Covid-19.
+        \n
+        1.2    Ứng dụng Healthy Vietnam hoạt động phù hợp với quy định của pháp luật nước Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam.
+       \n
+        1.3    Ứng dụng Quick Covid-19 có các nhóm tính năng chính sau:\n
+
+         \nGiới thiệu về các tính năng của Ứng dụng, đăng ký.
+
+    \nỨng dụng bao gồm trang chủ, trang thông tin người dùng, trang thông tin danh mục, phản ảnh thông tin, tích hợp QR code.
+
+   \nKhai báo y tế, khai báo nhập cảnh theo các mẫu khai báo hiện hành của Bộ Y tế, hoặc khai báo nhanh theo thiêt kế của ứng dụng lưu trữ tờ khai y tế.
+
+    \nTạo mẫu QR thông tin người dùng.
+
+    \nQuản lý vắc xin: Thông tin về vắc xin, mô tả các câu hỏi và giải đáp về một số vấn đề liên quan tiêm chủng.
+
+    \nCung cấp thông tin rủi ro dịch bệnh từ các nguồn tin chính thống, cập nhật thông tin và tương tác khuyến khích người dân khai báo y tế, tiếp nhận phản ánh bất thường.
+
+    \n\n<b>Điều 2. Cập nhật</b>\n
+
+	\nĐiều khoản sử dụng này có thể được cập nhật, bổ sung, điều chỉnh thường xuyên bởi Đơn vị quản lý Ứng dụng theo từng thời điểm. Phiên bản cập nhật sẽ được công bố tại Ứng dụng.
+
+	\n\nĐiều 3. Quy định chung về Ứng dụng\n
+
+	\n3.1    Phạm vi cung cấp dịch vụ
+
+	\nToàn quốc.
+
+   \n3.2    Hướng dẫn sử dụng dịch vụ
+
+    \nỨng dụng hoạt động dựa trên Quy trình cung cấp dịch vụ được quy định cụ thể tại buổi báo cáo cũng như các file mô tả khác.
+
+    \n3.3    Phí dịch vụ
+
+    \nHiện tại ứng dụng không thu phí bất kỳ dịch vụ nào
+
+    \n3.4    Thanh toán
+
+    \nChưa có thông tin hỗ trợ
+
+    \n3.5    Hoàn trả Phí dịch vụ
+
+    \nYêu cầu cập nhật sau
+
+   \n\n<b>Điều 4. Quyền truy cập</b>
+
+    \n4.1    Ứng dụng chỉ truy cập các chức năng dưới đây trên điện thoại/máy tính/thiết bị thông minh của Người dùng khi có sự đồng ý rõ ràng của Người dùng bằng cách nhấn vào nút đăng ký đồng nghĩa là đã đồng ý cho Ứng dụng truy cập vào [tên tính năng] của thiết bị. Nếu không có sự đồng ý rõ ràng của Người dùng bằng hành động như nêu trên, Ứng dụng cam kết không truy cập vào bất cứ tính năng, thông tin nào được nêu tại Điều 4 này
+
+   \n Đọc và ghi lịch sử tiếp xúc, Các thông tin các nhân, chi tiết khác do người dùng cung cấp.
+
+    \nTruy cập vào Internet từ thiết bị của người dùng.
+
+    \nSử dụng Camera (trên Android gồm có: CAMERA) để quét mã QR, chụp ảnh chứng minh nhân dân/căn cước công dân và cập nhật hình ảnh đại diện.
+
+    \nTruy cập ảnh, video, âm thanh và tệp(trên Android gồm có WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE) để tải lên giấy chứng nhận, hồ sơ và lưu mã QR về điện thoại.
+
+    \nTruy cập SSID/BSSID , kiểm tra kết nối internet (trên android gồm có: ACCESS_WIFI_STATE, ACCESS_NETWORK_STATE) để kịp thời thông báo nếu không bị ngắt kết nối trong quá trình sử dụng ứng dụng và ghi nhận tiếp xúc gần.
+
+    \n<b>Điều 5. Đăng ký thông tin cá nhân</b>
+
+    \nNgười dùng có quyền lựa chọn đăng ký thông tin cá nhân của mình để nhận được thông tin, hướng dẫn và trợ giúp của cơ quan y tế khi cần thiết. Thông tin cá nhân bao gồm: Họ và tên, Giới tính, Ngày tháng năm sinh, Quốc tịch, Vaccine đã tiêm, Số điện thoại, Địa chỉ, Chứng minh nhân dân/Căn cước công dân,  Số thẻ BHYT.
+
+    \nBằng việc đăng ký thông tin cá nhân, Người dùng đồng ý cho cơ quan y tế sử dụng thông tin do Người dùng cung cấp với mục đích phòng chống dịch bệnh Covid-19.
+
+   \nNgười dùng tự chịu trách nhiệm về năng lực hành vi trong việc cung cấp thông tin cá nhân, đăng ký, sử dụng Ứng dụng.
+
+   \n<b>Điều 6. Bảo vệ sự riêng tư và bản quyền</b>
+
+    \n6.1    Dữ liệu của Người dùng được thu thập, lưu trữ và sử dụng để phục vụ cho các mục đích nêu tại Điều 1 của Điều khoản sử dụng này. Dữ liệu sẽ được lưu trữ và bảo mật bởi đơn vị quản lý Ứng dụng và chỉ sử dụng vào mục đích giúp người dân bảo vệ sức khoẻ và phòng chống dịch bệnh Covid-19. Đơn vị quản lý Ứng dụng cam kết tuyệt đối không sử dụng thông tin thu thập được vào mục đích thương mại, không xâm phạm đời tư, không phát tán thông tin của bất cứ cá nhân, tổ chức nào.
+
+    \n6.2    Ngoài các mục đích trên, đơn vị quản lý Ứng dụng không được phép thu thập, sử dụng thông tin của Người dùng vào bất kỳ mục đích nào khác với mục đích đã nêu tại Điều 1 của Điêu Khoản Sử Dụng này. Đơn vị quản lý Ứng dụng sẽ không tiết lộ bất kỳ thông tin nào có thể gây tổn hại hoặc thực hiện bất kỳ hành vi bất hợp pháp nào về quyền riêng tư của Người dùng theo quy định của pháp luật Việt Nam hoặc chính sách của Ứng dụng.
+
+    \n6.3    Mục đích thu thập, sử dụng, lưu trữ, chia sẻ dữ liệu cá nhân và dữ liệu nhạy cảm, bảo mật thông tin người dùng sẽ được quy định cụ thể tại Phụ lục 2 . Chính sách bảo mật thông tin cá nhân của Điều khoản sử dụng này.
+
+    \n<b>Điều 7. Nội dung cung cấp, trao đổi thông tin</b>
+
+    \n7.1    Ứng dụng bắt buộc khi đăng ký thông tin cơ bản về cá nhân mình, bao gồm: Họ và tên, Giới tính, Ngày tháng năm sinh, Quốc tịch, Vaccine đã tiêm, Số điện thoại, Địa chỉ, Chứng minh nhân dân/Căn cước công dân, Số thẻ BHYT.
+
+    \n7.2    Người dùng nhận được thông tin, cảnh báo về nguy cơ lây nhiễm, được các cơ quan y tế liên hệ, hướng dẫn và hỗ trợ y tế kịp thời nếu đã từng tiếp xúc gần với ca nhiễm, ca nghi nhiễm, được thông tin về việc tiêm vắc xin phòng Covid-19.
+
+    \n7.3    Về phía cơ quan chức năng: Ứng dụng giúp cơ quan chức năng nhanh chóng cập nhật thông tin bản tin, hỗ trợ các ca nhiễm, ca nghi nhiễm và những người có tiếp xúc gần họ, giúp cơ quan y tế ra quyết định nhanh chóng về những trường hợp bị cách ly, bị nghi lây nhiễm, đồng thời có thể khuyến cáo, hướng dẫn người dân phòng, tránh dịch hiệu quả.
+
+    \n<b>Điều 8. Quyền và trách nhiệm của Đơn vị quản lý Ứng dụng</b>
+
+   \n8.1    Trong trường hợp có cơ sở để chứng minh Người dùng cung cấp thông tin cho Ứng dụng không chính xác, sai lệch, không đầy đủ hoặc vi phạm pháp luật hay thuần phong mỹ tục Việt Nam, Đơn vị quản lý Ứng dụng có quyền từ chối, tạm ngừng hoặc chấm dứt quyền sử dụng dịch vụ của Người dùng.
+
+    \n8.2    Đơn vị quản lý Ứng dụng có thể chấm dứt quyền Người dùng và quyền sử dụng một hoặc tất cả các dịch vụ của Người dùng và sẽ thông báo cho Người dùng trong thời hạn ít nhất là 01 tuần trong trường hợp Người dùng vi phạm các quy định của Ứng dụng hoặc có những hành vi ảnh hưởng đến hoạt động cung cấp dịch vụ của Ứng dụng.
+
+    \n8.3    Đơn vị quản lý Ứng dụng giữ bản quyền Ứng dụng và các nội dung trên Ứng dụng theo quy định pháp luật Việt Nam. Ứng dụng và mã nguồn, biểu tượng, nội dung, hình ảnh, đoạn video, đoạn âm thanh của Ứng dụng theo các ngôn ngữ khác nhau đều thuộc quyền sở hữu của Đơn vị quản lý Ứng dụng. Nghiêm cấm mọi hành vi sao chép, sử dụng và phổ biến bất hợp pháp các quyền sở hữu trên.
+
+    \n8.4    Đơn vị quản lý Ứng dụng sẽ thông báo đầy đủ cho Người dùng về Điều Khoản Sử Dụng trên Ứng dụng và trang website chính thức.
+
+    \n8.5    Đơn vị quản lý Ứng dụng có cơ chế kiểm tra, giám sát để đảm bảo việc cung cấp thông tin trên Ứng dụng được thực hiện chính xác, đầy đủ.
+
+    \n8.6   Đơn vị quản lý Ứng dụng sẽ áp dụng các biện pháp cần thiết để đảm bảo an toàn thông tin liên quan đến thông tin cá nhân của Người dùng.
+
+   \n8.7    Đơn vị quản lý Ứng dụng có biện pháp xử lý kịp thời khi phát hiện hoặc nhận được phản ánh về hành vi vi phạm pháp luật trên Ứng dụng.
+
+    \n8.8    Đơn vị quản lý Ứng dụng chịu trách nhiệm xây dựng Ứng dụng bao gồm một số công việc chính như: nghiên cứu, thiết kế, mua sắm các thiết bị phần cứng và phần mềm, kết nối Internet, xây dựng chính sách phục vụ cho hoạt động Ứng dụng trong điều kiện và phạm vi cho phép.
+
+    \n8.9    Đơn vị quản lý Ứng dụng sẽ tiến hành triển khai và hợp tác với các đối tác trong việc xây dựng hệ thống các dịch vụ, các công cụ tiện ích phục vụ cho việc giao dịch của các Người dùng trên Ứng dụng.
+
+    \n8.10    Đơn vị quản lý Ứng dụng sẽ cố gắng đến mức cao nhất trong phạm vi và điều kiện cho phép để duy trì hoạt động bình thường của Ứng dụng và khắc phục các sự cố như: sự cố kỹ thuật về máy móc, lỗi phần mềm, hệ thống đường truyền Internet, nhân sự, các biến động xã hội, thiên tai, mất điện, các quyết định của cơ quan nhà nước hay một tổ chức liên quan thứ ba.
+
+    \n8.11    Đơn vị quản lý Ứng dụng sẽ tư vấn cho các Người dùng thực hiện quá trình mua dịch vụ qua Ứng dụng, đặc biệt là việc áp dụng chức năng thanh toán trực tuyến.
+
+    \n8.12    Đơn vị quản lý Ứng dụng sẽ xây dựng và thực hiện cơ chế để đảm bảo việc đăng thông tin trên Ứng dụng Ứng dụng được thực hiện chính xác, bảo mật.
+
+    \n8.13    Đơn vị quản lý Ứng dụng sẽ loại bỏ khỏi Ứng dụng những thông tin vi phạm pháp luật ngay khi phát hiện hoặc nhận được phản ánh có căn cứ về những thông tin này.
+
+    \n8.14    Đơn vị quản lý Ứng dụng sẽ yêu cầu Nhà cung cấp các thông tin về tên doanh nghiệp, địa chỉ trụ sở/liên lạc, thư điện tử, mã số thuế; đồng thời cung cấp Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư (nếu có), và các giấy phép hoặc giấy chứng nhận đủ điều kiện cung cấp dịch vụ liên quan.
+
+    \n8.15    Đơn vị quản lý Ứng dụng sẽ lưu trữ thông tin đăng ký của Người dùng và thường xuyên cập nhật những thông tin thay đổi, bổ sung có liên quan.
+
+    \n8.16    Đơn vị quản lý Ứng dụng sẽ cung cấp thông tin và hỗ trợ cơ quan quản lý nhà nước điều tra các hành vi kinh doanh vi phạm pháp luật; cung cấp thông tin đăng ký, lịch sử giao dịch và các tài liệu khác về đối tượng có hành vi vi phạm pháp luật trên Ứng dụng.
+
+    \n8.17    Đơn vị quản lý Ứng dụng sẽ xây dựng thỏa thuận với các điều khoản rõ ràng về quyền lợi và nghĩa vụ của mỗi bên tham gia, quy định về chi phí sử dụng, điều kiện thanh toán, chế độ hỗ trợ trên Ứng dụng.
+
+    \n<b>Điều 9. Quyền và trách nhiệm của Người dùng</b>
+
+    \n9.1    Tuân thủ các quy định về bảo đảm an toàn và bảo mật thông tin, an ninh thông tin. Người dùng đảm bảo khai báo các thông tin chính xác, có độ xác thực cao. Người dùng sẽ tự chịu trách nhiệm về tính chính xác và đầy đủ của thông tin do mình cung cấp.
+
+    \n9.2    Người dùng được bảo vệ bí mật thông tin cá nhân và thông tin Người dùng theo quy định của pháp luật.
+
+    \n9.3    Trong quá trình sử dụng Ứng dụng, Người dùng được sử dụng các dịch vụ hỗ trợ theo quy định. Khi phát hiện ra lỗi của Ứng dụng, Người dùng vui lòng thông báo cho chúng tôi qua đội ngũ phát triển Ứng dụng.
+
+    \n9.4    Thực hiện quyền và trách nhiệm khác theo quy định pháp luật.\n\n\n
+    </string>
+    <!-- Faq-->
+
+    <string name="faqQuestion1">TCMR Nghĩa là gì\?</string>
+    <string name="faqAnswer1">TCMR là chủ đề chính của Chương trình Tiêm chủng Quốc gia COVID-19 nhấn mạnh rằng sự bảo vệ cho tất cả Việt Nam sẽ chỉ đạt được nếu chúng ta có thể tiêm chủng cho càng nhiều người đủ điều kiện. Khi mỗi cá nhân uống thuốc chủng ngừa, họ sẽ có thể bảo vệ những người xung quanh khỏi bất kỳ bệnh nhiễm trùng nào có thể mang theo. Hãy tưởng tượng, nếu phần lớn người dân Việt Nam đi tiêm vắc xin, chúng ta có thể xây dựng một mạng lưới bảo vệ có thể bảo vệ những nhóm không đủ điều kiện tiêm chủng như trẻ em và phụ nữ có thai. Bảo vệ những người thân yêu của bạn bắt đầu với bạn thông qua việc tiêm phòng. Khi ít nhất 70 phần trăm dân số đã được tiêm chủng, chúng ta sẽ được bảo vệ toàn diện. Như đã nói, không ai trong chúng ta an toàn cho đến khi tất cả chúng ta đều an toàn. Bảo vệ cho tất cả bắt đầu từ chính chúng ta. Vì vậy, hãy tiêm phòng.</string>
+
+    <string name="faqQuestion4">Tôi có thể gọi đến số điện thoại đường dây nóng nào để tìm hiểu thêm về việc đăng ký tiêm chủng COVID-19\?</string>
+    <string name="faqAnswer4">Đi tới Điều khoản sử dụng và nhấp vào Số đường dây nóng của vắc xin và bạn có thể quay số trực tiếp trên ứng dụng này sau khi nhấp vào</string>
+
+    <string name="faqQuestion5">Tôi đã đăng ký tiêm phòng. Tiếp theo là gì\?</string>
+    <string name="faqAnswer5">Ứng viên tiêm chủng sẽ nhận được xác nhận ngày và chỉ định Trung tâm phân phối vắc xin PPV hai tuần trước cuộc hẹn theo lịch trình của họ. Trong vòng hai tuần, các ứng viên cũng sẽ nhận được lời nhắc qua cuộc gọi điện thoại hoặc tin nhắn SMS.</string>
+
+    <string name="faqQuestion7">Bệnh nền là gì và làm cách nào để biết nếu tôi mắc bệnh\?</string>
+    <string name="faqAnswer7">Tỷ lệ mắc bệnh là khi một cá nhân có các tình trạng sức khỏe từ trước như huyết áp cao, tiểu đường, bệnh tim, bệnh thận, bệnh gan, khả năng miễn dịch thấp, hen suyễn, ung thư, bệnh phổi mãn tính, đột quỵ hoặc béo phì. Tỷ lệ mắc bệnh chỉ có thể được chứng nhận bởi các chuyên gia y tế có trình độ.
+    </string>
+
+    <string name="faqQuestion8">Tôi bị huyết áp cao và cholesterol cao nhưng nó được kiểm soát và tôi không cần dùng thuốc. Điều đó có nghĩa là tôi mắc bệnh nền\?</string>
+    <string name="faqAnswer8">Vui lòng tham khảo ý kiến chuyên gia y tế có chuyên môn để xác định tình trạng bệnh nền hiện tại của bạn.</string>
+
+    <string name="faqQuestion9">Gần đây tôi đã trải qua một cuộc phẫu thuật để loại bỏ một khối u. Điều đó có nghĩa là tôi mắc bệnh nền\?</string>
+    <string name="faqAnswer9">Đúng. Mặc dù phần tăng trưởng đã được loại bỏ, bạn vẫn được coi là mắc bệnh nền.</string>
+</resources>

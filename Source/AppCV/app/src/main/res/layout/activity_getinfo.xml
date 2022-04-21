@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getInfoUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:theme="@style/TitleBar"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/btn_backLogin"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back"
+                android:padding="2dp"
+                android:layout_marginLeft="7dp"
+                android:layout_gravity="center"
+                android:theme="@style/TitleBar"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_mono"
+                android:text="Personal information"
+                android:textSize="26sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thông tin cá nhân (bắt buộc) "
+                    android:textSize="24sp"
+                    android:fontFamily="@font/roboto_mono"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textColor="@color/red"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/roboto_mono"/>
+            </LinearLayout>
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editUserNameRegis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:drawableEnd="@drawable/ic_edit"
+                android:hint="Họ và Tên"
+                android:fontFamily="@font/roboto_mono"
+                android:inputType="text"
+                android:textColor="#626868"
+                android:textSize="16sp"
+                app:met_baseColor="#626868"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="Họ và Tên"
+                app:met_iconPadding="0dp"
+                app:met_primaryColor="@color/myColor"
+                app:met_textColorHint="#626868">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/checkNam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/grayLight2"
+                        android:layoutDirection="rtl"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:fontFamily="@font/roboto_mono"
+                        android:text=" Nam" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/checkNu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/grayLight2"
+                        android:layoutDirection="rtl"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:fontFamily="@font/roboto_mono"
+                        android:text=" Nữ" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editUserCMND"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:drawableEnd="@drawable/ic_edit"
+                android:hint="Số CMND(CCCD)"
+                android:fontFamily="@font/roboto_mono"
+                android:inputType="numberDecimal"
+                android:textColor="#626868"
+                android:textSize="16sp"
+                app:met_baseColor="#626868"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="Số CMND"
+                app:met_iconPadding="0dp"
+                app:met_primaryColor="@color/myColor"
+                app:met_textColorHint="#626868">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editUserBHYT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:drawableEnd="@drawable/ic_edit"
+                android:hint="Số BHYT"
+                android:fontFamily="@font/roboto_mono"
+                android:inputType="text"
+                android:textColor="#626868"
+                android:textSize="16sp"
+                app:met_baseColor="#626868"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="Số BHYT"
+                app:met_iconPadding="0dp"
+                app:met_primaryColor="@color/myColor"
+                app:met_textColorHint="#626868">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editUserBirthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:drawableEnd="@drawable/ic_calendar"
+                android:hint="Ngày tháng năm sinh"
+                android:fontFamily="@font/roboto_mono"
+                android:inputType="text"
+                android:textColor="#626868"
+                android:textSize="16sp"
+                app:met_baseColor="#626868"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="Ngày tháng năm sinh"
+                app:met_iconPadding="0dp"
+                app:met_iconRight="@drawable/ic_lock"
+                app:met_primaryColor="@color/myColor"
+                app:met_textColorHint="#626868">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+            <Spinner
+                android:id="@+id/spVaccine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="@font/roboto_mono"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quốc tịch "
+                    android:fontFamily="@font/roboto_mono"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:fontFamily="@font/roboto_mono"
+                    android:textColor="@color/red"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spNational"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="@font/roboto_mono"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Địa chỉ hiện tại "
+                    android:fontFamily="@font/roboto_mono"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:fontFamily="@font/roboto_mono"
+                    android:textColor="@color/red"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spProvince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="@font/roboto_mono"/>
+
+            <Spinner
+                android:id="@+id/spDistrict"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="@font/roboto_mono"/>
+
+            <Spinner
+                android:id="@+id/spCommune"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="@font/roboto_mono"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editUserNumHouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:drawableEnd="@drawable/ic_edit"
+                android:hint="Số nhà/đường"
+                android:fontFamily="@font/roboto_mono"
+                android:inputType="text"
+                android:textColor="#626868"
+                android:textSize="16sp"
+                app:met_baseColor="#626868"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="Số nhà/đường"
+                app:met_iconPadding="0dp"
+                app:met_primaryColor="@color/myColor"
+                app:met_textColorHint="#626868">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editUserNumPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:drawableEnd="@drawable/ic_edit"
+                android:hint="Số điện thoại"
+                android:fontFamily="@font/roboto_mono"
+                android:inputType="number"
+                android:textColor="#626868"
+                android:textSize="16sp"
+                app:met_baseColor="#626868"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="Số điện thoại"
+                app:met_iconPadding="0dp"
+                app:met_primaryColor="@color/myColor"
+                app:met_textColorHint="#626868">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editUserEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:drawableEnd="@drawable/ic_edit"
+                android:hint="Email"
+                android:fontFamily="@font/roboto_mono"
+                android:inputType="textEmailAddress"
+                android:textColor="#626868"
+                android:textSize="16sp"
+                app:met_baseColor="#626868"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="email"
+                app:met_iconPadding="0dp"
+                app:met_primaryColor="@color/myColor"
+                app:met_textColorHint="#626868">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+        </LinearLayout>
+
+
+        <CheckBox
+            android:id="@+id/checkCommit"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:text="I commit that the information declared is true"
+            android:fontFamily="@font/roboto_mono"
+            />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/btnNextRegis"
+            android:layout_margin="5dp"
+            android:text="Tiếp Tục"
+            android:fontFamily="@font/roboto_mono"
+            android:textColor="@color/white"
+            android:theme="@style/ButtonTheme"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+
+
+

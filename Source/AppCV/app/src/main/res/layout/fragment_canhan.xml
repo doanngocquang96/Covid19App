@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="4dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:layout_marginTop="8dp">
+
+        <CheckBox
+            android:id="@+id/cb_sot"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="#F1EEEE"
+            android:text="Sốt"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/cb_ho"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="#F1EEEE"
+            android:text="Ho"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/cb_khotho"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="#F1EEEE"
+            android:text="Khó thở"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:layout_marginTop="2dp">
+
+        <CheckBox
+            android:id="@+id/cb_daunguoi"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="#F1EEEE"
+            android:text="Đau người, mệt mỏi"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/cb_suckhoetot"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="#F1EEEE"
+            android:text="Sức khỏe tốt"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_guiboyte"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="25dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:theme="@style/ButtonTheme"
+        android:text="Lưu trạng thái sức khỏe"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>

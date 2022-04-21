@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable-v24/ic_vaccine.xml" value="0.2037037037037037" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable-v24/sharp_border.xml" value="0.1" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable-v24/sharp_border_color.xml" value="0.1" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable-v24/sharp_border_oval_disable.xml" value="0.2361111111111111" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable-v24/sharp_border_oval_enable.xml" value="0.2361111111111111" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable/border.xml" value="0.23055555555555557" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable/circle_background.xml" value="0.29907407407407405" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable/ic_back.xml" value="0.24814814814814815" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable/ic_chat.xml" value="0.2037037037037037" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable/ic_edit.xml" value="0.17777777777777778" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable/ic_qrcode.xml" value="0.31851851851851853" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable/ic_relate.xml" value="0.1962962962962963" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable/ic_shield.xml" value="0.2824074074074074" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/drawable/ic_vaccine1.xml" value="0.22777777777777777" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/font/roboto_mono.xml" value="0.20092592592592592" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout-h600dp-land/activity_login.xml" value="0.25" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout-land/activity_login.xml" value="0.4109375" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/aboutapp_activity.xml" value="0.3515625" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_aboutapp.xml" value="0.3328125" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_detail.xml" value="0.32083333333333336" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_faq.xml" value="0.3390625" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_getinfo.xml" value="0.33" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_infouser.xml" value="0.2984375" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_kbyt.xml" value="0.3546875" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_login.xml" value="0.3020833333333333" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_login_register.xml" value="0.32083333333333336" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_main_news.xml" value="0.3380208333333333" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_main_quang.xml" value="0.34427083333333336" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_personal_information2.xml" value="0.3380208333333333" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_policy.xml" value="0.25068654374264415" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_qrlist.xml" value="0.28802083333333334" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_share.xml" value="0.3390625" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/activity_webview.xml" value="0.3020833333333333" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/announment.xml" value="0.3380208333333333" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/custom_list_item.xml" value="0.3380208333333333" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/fragment_canhan.xml" value="0.32083333333333336" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/fragment_danhmuc.xml" value="0.29791666666666666" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/fragment_home.xml" value="0.32083333333333336" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/fragment_map.xml" value="0.32083333333333336" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/fragment_nguoithan.xml" value="0.32083333333333336" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/fragment_qrcode.xml" value="0.32083333333333336" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/history_activity.xml" value="0.32916666666666666" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/item_history.xml" value="0.5" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/item_qr.xml" value="0.28802083333333334" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/list_row.xml" value="0.3390625" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/register_layout.xml" value="0.5" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/row.xml" value="0.3390625" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/terms_of_use.xml" value="0.28328173374613" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/layout/toast.xml" value="0.36302083333333335" />
+        <entry key="..\:/Nhom5_LT/AppMobile/AppCV/app/src/main/res/menu/faq_menu.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/drawable-v24/sharp_border_color.xml" value="0.2890625" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/drawable/binhphuc.xml" value="0.2890625" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/drawable/button.xml" value="0.2890625" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/drawable/ic_menu_enable.xml" value="0.2890625" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/drawable/ic_thermometer_enable.xml" value="0.2890625" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/drawable/image.xml" value="0.2890625" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/layout/activity_detail.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/layout/activity_login_register.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/layout/activity_main2.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/layout/activity_main_quang.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/layout/activity_personal_information2.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/layout/activity_webview.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/layout/button.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/layout/fragment_canhan.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/layout/fragment_map.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/layout/fragment_nguoithan.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/layout/fragment_phananh.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/ApplicationCV/app/src/main/res/layout/register_layout.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable-v24/sharp_border.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable-v24/sharp_border_blue.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable-v24/sharp_border_bottom.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable-v24/sharp_border_color.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable-v24/sharp_border_oval_disable.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable-v24/sharp_border_oval_enable.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable-v24/sharp_border_ovan.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable-v24/sharp_border_white.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_button_back2.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_document.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_exclamation.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_home.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_home_enable.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_menu.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_menu_disable.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_menu_enable.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_message.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_message_enable.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_person.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_qr.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_qr_enable.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_send_message.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_shield.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_thermometer.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/drawable/ic_thermometer_enable.xml" value="0.3828125" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/layout/activity_login_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/layout/activity_main2.xml" value="0.33" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/layout/activity_personal_information2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/layout/activity_webview.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/layout/fragment_map.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/layout/register_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chis/AndroidStudioProjects/ApplicationCV/app/src/main/res/layout/toast.xml" value="0.28020833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

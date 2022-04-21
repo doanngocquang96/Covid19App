@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="brand_ic_width">200dp</dimen>
+    <dimen name="brand_ic_height">120dp</dimen>
+    <dimen name="brand_ic_padding">10dp</dimen>
+    <dimen name="brand_ic_trans_width">60dp</dimen>
+    <dimen name="brand_ic_trans_height">25dp</dimen>
+    <dimen name="brand_logo_padding">30dp</dimen>
+    <dimen name="brand_logo_height">120dp</dimen>
+
+    <dimen name="left_right_margin">20dp</dimen>
+    <dimen name="button_padding">70dp</dimen>
+    <dimen name="title_text_size">16dp</dimen>
+    <dimen name="title_rp_name_size">13dp</dimen>
+    <dimen name="title_size">40dp</dimen>
+    <dimen name="number_box_height">35dp</dimen>
+    <dimen name="number_box_width">40dp</dimen>
+    <dimen name="number_keyboard_width">60dp</dimen>
+    <dimen name="button_height">35dp</dimen>
+    <dimen name="button_border_round">20dp</dimen>
+    <dimen name="notification_round">5dp</dimen>
+    <dimen name="button_offset_1">8dp</dimen>
+    <dimen name="button_offset_2">45dp</dimen>
+    <dimen name="button_offset_3">81dp</dimen>
+    <dimen name="button_offset_4">117dp</dimen>
+    <dimen name="error_message_top_offset">10dp</dimen>
+    <dimen name="error_message_bottom_offset">10dp</dimen>
+    <dimen name="text_size_12">12dp</dimen>
+    <dimen name="text_size_14">14dp</dimen>
+    <dimen name="text_size_10">10dp</dimen>
+    <dimen name="text_box_height">35dp</dimen>
+    <dimen name="transaction_text_size">10dp</dimen>
+    <dimen name="certificate_info_box_height">40dp</dimen>
+    <dimen name="certificate_info_box_height_double">50dp</dimen>
+    <dimen name="drop_down">300dp</dimen>
+    <dimen name="spinner_height">300dp</dimen>
+    <dimen name="spinner_width">72dp</dimen>
+    <dimen name="pin_4_space">53dp</dimen>
+    <dimen name="pin_6_space">22dp</dimen>
+    <dimen name="spinner_flag_size">24dp</dimen>
+    <dimen name="spinner_margin_large">16dp</dimen>
+    <dimen name="spinner_margin_medium">5dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="spinner_max_height">350dp</dimen>
+
+</resources>

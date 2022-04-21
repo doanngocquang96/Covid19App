@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:scaleType="fitXY">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thông tin tài khoản"
+            android:fontFamily="@font/roboto_mono"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/color_border"/>
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/userlogo"
+            android:padding="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên:"
+                android:fontFamily="@font/roboto_mono"
+                android:textSize="15sp"
+                android:textColor="@color/color_border"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loren "
+                    android:fontFamily="@font/roboto_mono"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="end"/>
+                <ImageView
+                    android:id="@+id/btn_edit1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_edit"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="end"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Họ và Tên:"
+                android:fontFamily="@font/roboto_mono"
+                android:textSize="15sp"
+                android:textColor="@color/color_border"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+                <TextView
+                    android:id="@+id/userFullName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loren "
+                    android:fontFamily="@font/roboto_mono"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="end"/>
+                <ImageView
+                    android:id="@+id/btn_edit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_edit_unable"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="end"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Năm sinh:"
+                android:fontFamily="@font/roboto_mono"
+                android:textSize="15sp"
+                android:textColor="@color/color_border"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+                <TextView
+                    android:id="@+id/userBirth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loren "
+                    android:fontFamily="@font/roboto_mono"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="end"/>
+                <ImageView
+                    android:id="@+id/btn_edit4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_edit_unable"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="end"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giới tính:"
+                android:fontFamily="@font/roboto_mono"
+                android:textSize="15sp"
+                android:textColor="@color/color_border"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+                <TextView
+                    android:id="@+id/userSex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loren "
+                    android:fontFamily="@font/roboto_mono"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="end"/>
+                <ImageView
+                    android:id="@+id/btn_edit5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_edit_unable"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="end"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CMDN/CCCD:"
+                android:fontFamily="@font/roboto_mono"
+                android:textSize="15sp"
+                android:textColor="@color/color_border"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+                <TextView
+                    android:id="@+id/userCMDN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loren "
+                    android:fontFamily="@font/roboto_mono"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="end"/>
+                <ImageView
+                    android:id="@+id/btn_edit6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_edit_unable"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="end"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số BHYT:"
+                android:fontFamily="@font/roboto_mono"
+                android:textSize="15sp"
+                android:textColor="@color/color_border"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+                <TextView
+                    android:id="@+id/userBHYT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loren "
+                    android:fontFamily="@font/roboto_mono"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="end"/>
+                <ImageView
+                    android:id="@+id/btn_edit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_edit_unable"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="end"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quốc tịch"
+                android:fontFamily="@font/roboto_mono"
+                android:textSize="15sp"
+                android:textColor="@color/color_border"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+                <TextView
+                    android:id="@+id/userNational"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loren "
+                    android:fontFamily="@font/roboto_mono"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="end"/>
+                <ImageView
+                    android:id="@+id/btn_edit7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_edit_unable"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="end"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ:"
+                android:fontFamily="@font/roboto_mono"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/color_border"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+                <TextView
+                    android:id="@+id/userAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loren "
+                    android:fontFamily="@font/roboto_mono"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="end"/>
+                <ImageView
+                    android:id="@+id/btn_edit8"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_edit"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="end"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vaccine đã tiêm:"
+                android:fontFamily="@font/roboto_mono"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/color_border"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+                <TextView
+                    android:id="@+id/userVaccine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loren "
+                    android:fontFamily="@font/roboto_mono"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="end"/>
+                <ImageView
+                    android:id="@+id/btn_edit9"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_edit"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="end"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số điện thoại:"
+                android:fontFamily="@font/roboto_mono"
+                android:textSize="15sp"
+                android:textColor="@color/color_border"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+                <TextView
+                    android:id="@+id/userNumPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loren "
+                    android:fontFamily="@font/roboto_mono"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="end"/>
+                <ImageView
+                    android:id="@+id/btn_edit10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_edit"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="end"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:fontFamily="@font/roboto_mono"
+                android:textSize="15sp"
+                android:textColor="@color/color_border"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+                <TextView
+                    android:id="@+id/userEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loren "
+                    android:fontFamily="@font/roboto_mono"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="end"/>
+                <ImageView
+                    android:id="@+id/btn_edit11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_edit_unable"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="end"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/grayLight" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Any editing of you in page will save to local storage. If you want to save in database, Let go edit all below"
+            android:textStyle="italic"
+            android:textSize="13sp"
+            android:textColor="@color/grayLight2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btn_editAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đặt lại Tất Cả"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/sharp_border_color"
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_Logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sharp_border_color"
+                    android:padding="10dp"
+                    android:text="Đăng Xuất"
+                    android:textColor="@color/white"
+                    android:textSize="19sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

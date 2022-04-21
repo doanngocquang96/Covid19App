@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/background" />
+
+            <TextView
+                android:id="@+id/txtCreateAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="+ CREATE ACCOUNT"
+                android:textSize="21sp"
+                android:textColor="@color/text_color_hover"
+                android:textStyle="bold" />
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editEmail"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:drawableEnd="@drawable/ic_email"
+            android:textColor="#626868"
+            app:met_floatingLabel="normal"
+            app:met_textColorHint="#626868"
+            app:met_baseColor="#626868"
+            app:met_primaryColor="@color/myColor"
+            app:met_iconPadding="0dp"
+            app:met_iconRight="@drawable/ic_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editPassword"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableEnd="@drawable/ic_lock"
+            android:textColor="#626868"
+            app:met_floatingLabel="normal"
+            app:met_textColorHint="#626868"
+            app:met_baseColor="#626868"
+            app:met_primaryColor="@color/myColor"
+            app:met_iconPadding="0dp"
+            app:met_iconRight="@drawable/ic_lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+        <Button
+            android:id="@+id/btnLogin"
+            android:text="LOGIN"
+            android:background="@drawable/sharp_border_color"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

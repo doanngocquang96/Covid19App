@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kbytActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/color_border"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/btn_backHome"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back"
+                android:padding="2dp"
+                android:layout_marginLeft="7dp"
+                android:layout_gravity="center"
+                android:background="@color/color_border"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Health Declaration"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="I commit that the information declared is true"
+                android:textColor="@color/grayLight"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/grayLight" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Trong 14 ngày, Anh chị có đến Quốc gia/vùng lãnh thổ nào (đi qua nhiều quốc gia): "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editDeclareAbroad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableEnd="@drawable/ic_edit"
+                android:hint="Nhập thông tin"
+                android:inputType="text"
+                android:textColor="#626868"
+                android:textSize="16sp"
+                app:met_baseColor="#626868"
+                app:met_iconPadding="0dp"
+                app:met_iconRight="@drawable/ic_lock"
+                app:met_primaryColor="@color/myColor"
+                app:met_textColorHint="#626868">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Trong vòng 14 ngày qua, Anh chị có xuất hiện các triệu chứng sau đây không? "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkBoxSot"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/grayLight2"
+                        android:layoutDirection="rtl"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+
+                        android:text=" Sốt" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxHo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:text=" Ho" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxKhoTho"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/grayLight2"
+                        android:layoutDirection="rtl"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:text=" Khó thở" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkViemPhoi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/grayLight2"
+                        android:layoutDirection="rtl"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:text=" Viêm phổi" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxDauHong"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:text=" Đau họng" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxMetMoi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/grayLight2"
+                        android:layoutDirection="rtl"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+
+                        android:text=" Mệt mỏi" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/grayLight" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Trong vòng 14 ngày qua, Anh chị có tiếp xúc với: "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBoxTiepXuc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grayLight2"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:text=" Người bệnh, nghi ngờ mắc bệnh COVID-19" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxTiepXuc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:text=" Người từ nước có bệnh COVID-19" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxTiepXuc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grayLight2"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:text=" Người có biểu hiện: sốt, ho, đau họng, viêm phổi " />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/grayLight" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Hiện tại, Anh/chị có các bệnh nào dưới đây: "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBoxBenhNen1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grayLight2"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+
+                    android:text=" Bệnh gan mãn tính" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxBenhNen2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+
+                    android:text=" Bệnh máu mãn tính" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxBenhNen3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grayLight2"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:text=" Bệnh phổi mãn tính"
+                    android:textDirection="ltr" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxBenhNen4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+
+                    android:text=" Bệnh thận mãn tính" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxBenhNen5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grayLight2"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+
+                    android:text=" Tiền sử bệnh ung thư" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Mô tả thông tin khác (nếu có)"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editDeclareOther"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableEnd="@drawable/ic_edit"
+                android:hint="Nhập mô tả"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:textColor="#626868"
+                android:textSize="16sp"
+                app:met_baseColor="#626868"
+                app:met_iconPadding="0dp"
+                app:met_iconRight="@drawable/ic_lock"
+                app:met_primaryColor="@color/myColor"
+                app:met_textColorHint="#626868">
+
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+        </LinearLayout>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/btnDeclare"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Khai Báo"
+            android:textColor="@color/white"
+            android:theme="@style/ButtonTheme"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+</ScrollView>

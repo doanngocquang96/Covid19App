@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editName"
+            android:hint="lastName"
+            android:inputType="textPersonName"
+            android:drawableEnd="@drawable/ic_user"
+            android:textColor="#626868"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/gray"
+            app:met_textColorHint="#626868"
+            app:met_baseColor="#626868"
+            app:met_primaryColor="@color/myColor"
+            app:met_iconPadding="0dp"
+            app:met_iconRight="@drawable/ic_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editEmail"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:drawableEnd="@drawable/ic_email"
+            android:textColor="#626868"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/gray"
+            app:met_textColorHint="#626868"
+            app:met_baseColor="#626868"
+            app:met_primaryColor="@color/myColor"
+            app:met_iconPadding="0dp"
+            app:met_iconRight="@drawable/ic_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editPassword"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#626868"
+            android:drawableEnd="@drawable/ic_lock"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/gray"
+            app:met_textColorHint="#626868"
+            app:met_baseColor="#626868"
+            app:met_primaryColor="@color/myColor"
+            app:met_iconPadding="0dp"
+            app:met_iconRight="@drawable/ic_lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editRePassword"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="#626868"
+            android:drawableEnd="@drawable/ic_lock"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/gray"
+            app:met_textColorHint="#626868"
+            app:met_baseColor="#626868"
+            app:met_primaryColor="@color/myColor"
+            app:met_iconPadding="0dp"
+            app:met_iconRight="@drawable/ic_lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/grayLight" />
+
+        <TextView
+            android:id="@+id/policyapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/commitpolicy"
+            android:textStyle="italic"
+            android:textSize="13sp"
+            android:textColor="@color/grayLight2"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

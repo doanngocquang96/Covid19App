@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editNumPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginRight="10dp"
+        android:drawableEnd="@drawable/ic_edit"
+        android:hint="Số điện thoại"
+        android:fontFamily="@font/roboto_mono"
+        android:inputType="numberDecimal"
+        android:textColor="#626868"
+        android:textSize="16sp"
+        app:met_baseColor="#626868"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Số điện thoại"
+        app:met_iconPadding="0dp"
+        app:met_primaryColor="@color/myColor"
+        app:met_textColorHint="#626868"/>
+
+</LinearLayout>
